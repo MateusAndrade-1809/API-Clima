@@ -15,7 +15,7 @@ public class ClimaController {
 	}
 
 	@GetMapping("/clima")
-	public ClimaDTO testarApi() {
-		return climaService.testarApi();
+	public ClimaDTO buscarClimaAtual() {
+		return climaService.buscarClimaAtual();
 	}
 }
